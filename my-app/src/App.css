@@ -18,9 +18,23 @@ nav ul li {
   padding: 20px;
 } 
 
+nav li a {
+  color: white;
+}
+
 header nav ul li {
     list-style-type: none;
     display: inline;
+}
+
+.banner {
+  width: 100%;
+  display: block;
+}
+
+.banner .banner-image {
+  width: 100%;
+  display: block;
 }
 
 /*

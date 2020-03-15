@@ -3,9 +3,7 @@ import React from 'react';
 function Header() {
   return (
     <header>
-      
         <div>
-
             <nav>
                 <ul>
                     <li>
@@ -22,9 +20,13 @@ function Header() {
                     </li>
                 </ul>
             </nav>
-
         </div>
 
+        <div className="banner">
+            <img className="banner-image" src="/../../../headerBanner.JPG">
+            
+            </img>
+        </div>
 
     </header>
   );

@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+/*
+HEADER STYLE
+*/
+header {
+  display: block;
+  background:black;
+  position: relative;
+  padding: 0;
+}
+
+nav,
+nav ul,
+nav ul li {
+  padding: 20px;
+} 
+
+header nav ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+/*
+BODY STYLE
+*/
+body {
+  position: relative;
+}
+
+/*
+FOOTER STYLE
+*/
+footer {
+  position: relative;
+}
+

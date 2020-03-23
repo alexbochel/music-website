@@ -4,8 +4,13 @@ function Header() {
   return (
     <header>
         <div>
-            <nav>
+           <nav>
                 <ul>
+                    
+                    <div className="logo">
+                        <a href='#'>Alex Bochel Music</a>
+                    </div>
+                    
                     <li>
                         <a href='#'>Home</a>
                     </li>
@@ -24,7 +29,6 @@ function Header() {
 
         <div className="banner">
             <img className="banner-image" src="/../../../headerBanner.JPG">
-            
             </img>
         </div>
 

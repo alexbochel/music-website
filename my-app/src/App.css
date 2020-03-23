@@ -12,7 +12,17 @@ header {
   padding: 0;
 }
 
-nav,
+.logo a {
+  color: white;
+  float: left;
+  font-weight: bold;
+  font-size: large;
+}
+
+nav {
+  text-align: right;
+}
+
 nav ul,
 nav ul li {
   padding: 20px;
@@ -20,6 +30,7 @@ nav ul li {
 
 nav li a {
   color: white;
+  font-weight: bold;
 }
 
 header nav ul li {
@@ -36,6 +47,8 @@ header nav ul li {
   width: 100%;
   display: block;
 }
+
+
 
 /*
 BODY STYLE
